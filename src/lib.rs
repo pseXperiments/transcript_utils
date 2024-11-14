@@ -9,6 +9,7 @@ mod timer;
 mod hash;
 pub mod transcript;
 
+#[derive(Debug)]
 struct TranscriptError;
 
 macro_rules! impl_index {
