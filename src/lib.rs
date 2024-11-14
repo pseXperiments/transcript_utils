@@ -10,7 +10,7 @@ mod hash;
 pub mod transcript;
 
 #[derive(Debug)]
-struct TranscriptError;
+pub struct TranscriptError;
 
 macro_rules! impl_index {
     (@ $name:ty, $field:tt, [$($range:ty => $output:ty),*$(,)?]) => {
