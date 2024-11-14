@@ -1,0 +1,13 @@
+[package]
+name = "transcript_utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ff = "0.13.0"
+num-bigint = "0.4.3"
+itertools = "0.10.5"
+halo2curves = { git = "https://github.com/privacy-scaling-explorations/halo2curves", tag = "0.3.3", package = "halo2curves", features = ["derive_serde"] }
+num-integer = "0.1.45"
+bitvec = "1.0.1"
+sha3 = "0.10.6"
